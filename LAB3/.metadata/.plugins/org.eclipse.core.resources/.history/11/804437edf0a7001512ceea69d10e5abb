@@ -1,0 +1,27 @@
+package my.word;
+import my.symb.*;
+import java.util.ArrayList;
+
+public class Word {
+	private ArrayList<String> word = new ArrayList<>();
+	
+	public String getWord(){
+		String word = "";
+		for (String item : this.word){
+			word += item;
+		}
+		return word;
+	}
+	
+	public void addSymbol(String symb){
+		this.word.add(symb);
+	}
+	
+	public String toString(){
+		String wordresult = "";
+		for (String item : this.word) {
+			wordresult += item;
+		}
+		return wordresult;
+	}
+ }

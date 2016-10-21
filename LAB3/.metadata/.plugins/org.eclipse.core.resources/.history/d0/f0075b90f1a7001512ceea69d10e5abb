@@ -1,0 +1,14 @@
+package my.symb;
+
+public class Symbol {
+	private String symb;
+	
+	public void setChar(String symb){
+		this.symb=symb;
+	}
+	
+	public String getChar(){
+		return symb;
+	}
+
+}

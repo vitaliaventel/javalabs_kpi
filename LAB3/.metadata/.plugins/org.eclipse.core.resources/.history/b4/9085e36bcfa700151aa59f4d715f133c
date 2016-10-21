@@ -1,0 +1,12 @@
+package my.lab3_3.tst;
+
+import my.lab3_3.*;
+
+public class QuadraticTest {
+	public static void main(String[] args){
+
+		QuadraticEqu equ1 = new QuadraticEqu(0, 43, 1);
+		System.out.println(equ1.toString() + " = " + equ1.firstRoot() + " " +
+		equ1.secondRoot());
+		}
+}

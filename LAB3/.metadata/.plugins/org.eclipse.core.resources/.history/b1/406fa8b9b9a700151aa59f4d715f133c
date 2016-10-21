@@ -1,0 +1,42 @@
+package my.test;
+
+import my.lab3_2.*;
+
+public class VectorTest {
+	
+	private static final Vector tst1 = new Vector(1,-2);
+    private static final Vector tst2 = new Vector(-3,1);
+    
+	public static void main(String[] args){
+
+		 System.out.println(tst1.toString() + " +  " +
+                 tst2.toString() + " =  " + 
+                 tst1.addition(tst2).toString());
+
+		 System.out.println(tst1.toString() + " -  " + 
+                 tst2.toString() + " =  " + 
+                 tst1.sub(tst2).toString());
+
+		 System.out.println(tst1.toString() + " *  " + 
+                 tst2.toString() + " =  " + 
+                 tst1.multiply(tst2).toString());
+		 
+		 System.out.println("Increment of the vector ( "+tst1.toString()+") = "
+                 + tst1.inc());
+		 
+		 System.out.println("Decrement of the vector ( "+tst1.toString()+") = "
+                 + tst1.dec());
+
+		 System.out.println("Scalar multiply (" + tst1.toString() + ") and ( " + 
+                                       tst2.toString() + ") = " + 
+                                       tst1.scalarMultiply(tst2));
+
+		 System.out.println("Length of the vector ( "+tst1.toString()+") = "
+                                      + tst1.length());
+
+		 System.out.println("The angle between (" + tst1.toString() + ") and ( " + 
+                                       tst2.toString() + ") =  " + 
+                                       tst1.angle(tst2));
+		
+	}
+}

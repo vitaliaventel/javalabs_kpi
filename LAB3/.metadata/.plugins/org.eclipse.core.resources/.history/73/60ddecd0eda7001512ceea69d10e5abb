@@ -1,0 +1,32 @@
+package my.lab3_4;
+
+import java.util.Scanner;
+
+import my.symb.*;
+import my.word.*;
+
+public class StringTask {
+	public static void main(String[] args){
+		String str = "";
+		Scanner scan = new Scanner(System.in);
+		Symbol symb = new Symbol();
+		System.out.println("Input number of words = ");
+		int m = scan.nextInt();
+		Word[] words = new Word[m];
+		
+		for(int i = 0; i < m; i++){
+		System.out.println("Input size of " + (i+1) + " word = ");
+		int size = scan.nextInt();
+		
+		while(size > 0){
+			size--;
+		System.out.println("Input symbol = ");
+		String inputSymb = scan.next();
+		symb.setChar(inputSymb);
+		words[i].addSymbol(inputSymb);
+		}
+		System.out.println("Word = " + words[i].toString());
+		}
+		
+	}
+}
