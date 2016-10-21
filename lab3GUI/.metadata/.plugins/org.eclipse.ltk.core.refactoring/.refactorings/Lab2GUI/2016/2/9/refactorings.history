@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;base.StringReplace&apos; to &apos;SymbolReplace&apos;&#x0D;&#x0A;- Original project: &apos;Lab2GUI&apos;&#x0D;&#x0A;- Original element: &apos;base.StringReplace&apos;&#x0D;&#x0A;- Renamed element: &apos;base.SymbolReplace&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StringReplace&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;base{StringReplace.java[StringReplace" matchStrategy="1" name="SymbolReplace" qualified="false" references="true" similarDeclarations="false" stamp="1456238991347" textual="false" version="1.0"/>
-</session>
